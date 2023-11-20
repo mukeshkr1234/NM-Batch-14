@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add mongoose
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\xampp\php;C:\composer;C:\Users\ammar\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\ammar\AppData\Local\Programs\Python\Python311\;C:\Users\ammar\AppData\Local\Microsoft\WindowsApps;;C:\Users\ammar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ammar\AppData\Local\Yarn\bin;C:\Users\ammar\AppData\Roaming\npm;C:\Users\ammar\AppData\Local\Programs\mongosh\;C:\Users\ammar\AppData\Roaming\Composer\vendor\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:720:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1605:19)
+      at TLSSocket.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "database",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
